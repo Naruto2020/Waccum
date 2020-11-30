@@ -1,0 +1,48 @@
+#aspi {
+  background-color: #339;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #fff;
+  padding: 15px;
+  border-bottom: 5px solid red;
+  margin-bottom: 15px;
+}
+
+#grille {
+  border: solid black 4px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+#affiche {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  width: 200px;
+  height: 40px;
+  border: solid red 2px;
+}
+
+/* Les media queries*/
+@media screen and (max-width: 1024px) {
+  #aspi {
+    width: 6px;
+    height: 6px;
+    padding: 9px;
+    border-bottom: 3px solid red;
+    margin-bottom: 8px;
+  }
+  #grille {
+    border: solid black 2px;
+    width: 200px;
+    height: 200px;
+  }
+  #affiche {
+    left: 80px;
+    width: 115px;
+    height: 40px;
+  }
+}

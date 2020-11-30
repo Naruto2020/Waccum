@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "vaccum"
+  "defaultProject": "vaccum",
+  "cli": {
+    "analytics": "7d385808-81cb-457f-a952-c1d14a296f03"
+  }
 }
