@@ -117,7 +117,7 @@ export class PositionComponent implements OnInit, AfterViewInit{
       }
       this.aspi.nativeElement.style.left = aspiL + this.vitX + "px";
       this.posX += this.vitX;
-      this.direction = this.ouest;
+      this.direction = this.est;
       } 
 
     if( this.degres === -90 || this.degres === -450 || this.degres === -810 || this.degres === 270 || this.degres === 630 ){
@@ -128,7 +128,7 @@ export class PositionComponent implements OnInit, AfterViewInit{
       }
       this.aspi.nativeElement.style.left = aspiL - this.vitX + "px";
       this.posX -= this.vitX;
-      this.direction = this.est;
+      this.direction = this.ouest;
       } 
     if(this.degres === 180 || this.degres === 540 || this.degres === 900 || this.degres === -180 || this.degres === -540){
       if(aspiT + this.vitY >= this.hGrille - 45 ){
