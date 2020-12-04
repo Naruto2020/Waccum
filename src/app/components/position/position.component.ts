@@ -78,6 +78,7 @@ export class PositionComponent implements OnInit, AfterViewInit{
   }
   // manipulation des éléments du DOM
   ngAfterViewInit(): void{
+    alert("Bienvenu sur ce mini site test le carré en bleu représente un aspirateur que vous pouvez déplacer avec les touches D, G et A. D et G permettent respectivement de faire une rotation de 90° sur la droite ou sur la gauche et A permettant d'avancer. vous avez un afficheur qui vous donne la position de l'aspirateur à chaque déplacement ");
 
     if(this.degres === 0){
 
